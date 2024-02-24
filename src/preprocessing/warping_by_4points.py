@@ -1,9 +1,11 @@
 '''
     이미지의 워핑을 수행하는 클래스입니다.
     
-    입출력 :
-    입력 => 파일의 확장자명
-    출력 => 없음
+    생성자 파라미터 :
+    파일의 확장자명
+    
+    반환 :
+    없음
     
     설명 :
     파일 전처리를 통해 저장한 이미지를 불러옵니다. 
@@ -15,11 +17,15 @@
 
 import cv2
 import numpy as np
+import json
 
 class WarpingBy4points :
     def __init__(self, extension) :
+        with open('config.json') as f:
+            self.config = json.load(f)
+            
         self.extension = extension 
-        self.image = cv2.imread("temp_data/input_image." + extension , cv2.IMREAD_COLOR)
+        self.image = cv2.imread(self.config['SAVE_PATH'] + extension , cv2.IMREAD_COLOR)
     
     #선택하는 지점의 좌표를 가지고 오기 위한 마우스 콜백 함수
     def mouse_callback(self , event, x, y, flags,param):
@@ -57,6 +63,6 @@ class WarpingBy4points :
         matrix = cv2.getPerspectiveTransform(src_points, dst_points)
         dst = cv2.warpPerspective(self.image, matrix, (self.image.shape[1], self.image.shape[0]))
         
-        save_path = "temp_data/warped_image." + self.extension
+        save_path = self.config['WARPED_IMAGE_PATH'] + self.extension
         cv2.imwrite(save_path, dst)
         print(f"워핑된 이미지가 {save_path} 경로에 저장되었습니다.")
