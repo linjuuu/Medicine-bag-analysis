@@ -4,6 +4,7 @@ from preprocessing.rotate import Rotate
 from ocr.ocr import Ocr
 from ocr.extract_important_info import ExtractImportantInfo
 from analysis.classification import Classification
+from finish.remove_file import RemoveFile
 
 INPUT_IMAGE_PATH = "input_images/sample3.png" 
 
@@ -35,7 +36,6 @@ if __name__ == "__main__" :
     #------------------------------------------------------
     #이미지 전처리 - 회전 객체 생성
     rotate = Rotate(extension)
-    
     #------------------------------------------------------
     
     
@@ -52,7 +52,6 @@ if __name__ == "__main__" :
     #OCR - 중요 정보 추출 객체 생성
     extract_important_info = ExtractImportantInfo()
     extract_important_info.extract_column()
-    
     #------------------------------------------------------
     
     
@@ -61,6 +60,12 @@ if __name__ == "__main__" :
     # analysis - 분류 객체 생성
     classification = Classification()
     classification.classify()
-    
     #------------------------------------------------------
     
+    
+    
+    #------------------------------------------------------
+    # finish - 종료 후 중간 생성 파일 삭제 객체 생성
+    remove_file = RemoveFile(extension)
+    remove_file.do()
+    #------------------------------------------------------

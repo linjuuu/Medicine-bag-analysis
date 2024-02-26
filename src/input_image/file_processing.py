@@ -29,5 +29,5 @@ class FilePreprocessing :
         save_path = config['SAVE_PATH'] + self.extension
         
         cv2.imwrite(save_path, self.image)
-        print(f"이미지가 {save_path} 경로에 저장되었습니다.")
+        print(f"입력된 이미지가 {save_path} 경로에 저장되었습니다.")
         return self.extension

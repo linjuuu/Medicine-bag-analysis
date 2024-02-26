@@ -2,7 +2,6 @@
     "API_URL": "https://0xpm7bk3nb.apigw.ntruss.com/custom/v1/26106/50d858e0985ecc7f60418aaf0cc5ab587f42c2570a884095a9e8ccacd0f6545c/general",
     "SECRET_KEY": "eU5JSnRsTUluR2dUV1dZU0JoY2JVZ1ZqVFBpWVZzaUE=",
 
-    "INPUT_PATH" : "temp_data/input_image.",
     "SAVE_PATH" : "temp_data/input_image.",
     "WARPED_IMAGE_PATH" : "temp_data/warped_image.",
     "OCR_SAVE_PATH" : "temp_data/ocr_response.json",
