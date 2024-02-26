@@ -6,7 +6,7 @@ from ocr.extract_important_info import ExtractImportantInfo
 from analysis.classification import Classification
 from finish.remove_file import RemoveFile
 
-INPUT_IMAGE_PATH = "input_images/sample3.png" 
+INPUT_IMAGE_PATH = "input_images/sample5.jpeg" 
 
 if __name__ == "__main__" :
     
