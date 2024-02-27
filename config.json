@@ -5,6 +5,8 @@
     "SAVE_PATH" : "temp_data/input_image.",
     "WARPED_IMAGE_PATH" : "temp_data/warped_image.",
     "OCR_SAVE_PATH" : "temp_data/ocr_response.json",
-    "IMPORTANT_OCR" : "temp_data/impotant_ocr.json" 
+    "IMPORTANT_OCR" : "temp_data/impotant_ocr.json",
+    "IMPORTANT_OCR_X" : "temp_data/impotant_ocr_x.json",
+    "IMPORTANT_OCR_Y" : "temp_data/impotant_ocr_y.json" 
   }
   

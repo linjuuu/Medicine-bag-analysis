@@ -1,12 +1,12 @@
 from input_image.file_processing import FilePreprocessing
 from preprocessing.warping_by_4points import WarpingBy4points
-from preprocessing.rotate import Rotate
+from preprocessing.detect_border import DetectBorder
 from ocr.ocr import Ocr
 from ocr.extract_important_info import ExtractImportantInfo
 from analysis.classification import Classification
 from finish.remove_file import RemoveFile
 
-INPUT_IMAGE_PATH = "input_images/sample5.jpeg" 
+INPUT_IMAGE_PATH = "input_images/sample2.jpeg" 
 
 if __name__ == "__main__" :
     
@@ -34,12 +34,13 @@ if __name__ == "__main__" :
     
     
     #------------------------------------------------------
-    #이미지 전처리 - 회전 객체 생성
-    rotate = Rotate(extension)
+    # 이미지 전처리 - 테두리 검출 객체 생성 (실패)
+    # detect_border = DetectBorder("jpeg")
+    # detect_border.detect_border()
     #------------------------------------------------------
     
-    
-    
+        
+
     #------------------------------------------------------
     #OCR - ocr 객체 생성
     ocr = Ocr(extension)
