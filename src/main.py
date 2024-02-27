@@ -66,6 +66,6 @@ if __name__ == "__main__" :
     
     #------------------------------------------------------
     # finish - 종료 후 중간 생성 파일 삭제 객체 생성
-    remove_file = RemoveFile(extension)
-    remove_file.do()
+    # remove_file = RemoveFile(extension)
+    # remove_file.do()
     #------------------------------------------------------

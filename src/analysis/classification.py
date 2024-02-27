@@ -43,7 +43,8 @@ class Classification :
     def is_drug_name(self,word):
         db = ['러키펜정','레스탐정', "고려세파클러캡슐",
               '인데놀정10mg', '인데놀정', "록스펜정","엑소페린정50mg",
-              '세푸로틸정','덱스핀정','레미스타정','목클린캡슐200밀리그램','베포캄정','비알코시럽'
+              '세푸로틸정','덱스핀정','레미스타정','목클린캡슐200밀리그램','베포캄정','비알코시럽',
+              '록스펜정','엑소페린정50mg'
               ]
         
         if word in db :
@@ -110,6 +111,7 @@ class Classification :
         for element in self.info :
             word = element[0].split('[')[0]
             
+            
             #약 이름이라면 
             if self.is_drug_name(word) :
                 self.taking_info.append(taking_info)
@@ -121,12 +123,8 @@ class Classification :
                 taking_info.append(word)     
             elif self.is_num(word):
                 taking_info.append(word)
-        
-        
-        
+                
+        self.taking_info.append(taking_info)
         for i in range(1, len(self.taking_info)):
             print(self.taking_info[i])
         
-        
-classification = Classification()
-classification.classify()
