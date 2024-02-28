@@ -88,7 +88,7 @@ class Classification :
 
 
 
-    # 분류기를 실행하는 함수
+    # 분류기 실행하는 함수
     def classify(self) :
         print()
         print('단어 분류를 시작합니다.')
@@ -127,4 +127,3 @@ class Classification :
         self.taking_info.append(taking_info)
         for i in range(1, len(self.taking_info)):
             print(self.taking_info[i])
-        
