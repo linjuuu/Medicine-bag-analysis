@@ -83,7 +83,12 @@ class Classification:
         self.medicines.append(medicine_info)
         
         self.print_result()
+    
+    def ok(self):
+        for element in self.info:
+            word = element[0]
+            print(word , end = "  ")
                 
             
 c = Classification()
-c.do()
+c.ok()
