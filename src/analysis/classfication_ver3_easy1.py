@@ -30,6 +30,34 @@ class Classification:
             return matches
         else :
             return False
+        
+    def print_result(self):
+        for medicine in self.medicines :
+            
+            medicine_name = ''
+            take_unit = -1
+            take_number = -1
+            take_days = -1 
+            
+            if len(medicine) >= 2 :
+                medicine_name = medicine[0]
+                
+                for info in medicine[1]:
+                    
+                    if info[1] == '정' :
+                        take_unit = info[0]
+                    elif info[1] == '회' :
+                        take_number = info[0]
+                    elif info[1] == '일분' :
+                        take_days = info[0]
+                
+                print('------------------------')
+                print("약이름 : " , medicine_name)
+                print("1회 투약량 : " , take_unit)
+                print("하루 복용량 : " , take_number)
+                print("총 복용일 : " , take_days)
+            
+                
             
     def do(self):
         # 추후 딕셔너리형으로 바꾸거나 다른 자료형을 사용하는게 어떨지 고민중 
@@ -54,7 +82,7 @@ class Classification:
         # 마지막에 기록된 복약정보도 추가하기 
         self.medicines.append(medicine_info)
         
-        print(self.medicines)
+        self.print_result()
                 
             
 c = Classification()
