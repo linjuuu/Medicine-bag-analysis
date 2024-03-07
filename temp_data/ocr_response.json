@@ -1,10 +1,10 @@
 {
     "version": "V2",
-    "requestId": "b6a10bee-1a9d-4e61-9a57-5d28cb1685fc",
-    "timestamp": 1709788063589,
+    "requestId": "4c4519aa-38f2-462e-9ada-02b7a7fa578d",
+    "timestamp": 1709823677973,
     "images": [
         {
-            "uid": "8de6bd33df9d4b9e84d7314172ebe25a",
+            "uid": "a540b36edebf4d93be32b98163169853",
             "name": "demo",
             "inferResult": "SUCCESS",
             "message": "SUCCESS",
@@ -12,8 +12,8 @@
                 "result": "NO_REQUESTED"
             },
             "convertedImageInfo": {
-                "width": 1330,
-                "height": 780,
+                "width": 1646,
+                "height": 770,
                 "pageIndex": 0,
                 "longImage": false
             },
@@ -23,213 +23,24 @@
                     "boundingPoly": {
                         "vertices": [
                             {
-                                "x": 26.0,
-                                "y": 9.0
+                                "x": 59.0,
+                                "y": 15.0
                             },
                             {
-                                "x": 212.0,
-                                "y": 3.0
+                                "x": 234.0,
+                                "y": 15.0
                             },
                             {
-                                "x": 215.0,
-                                "y": 94.0
+                                "x": 234.0,
+                                "y": 129.0
                             },
                             {
-                                "x": 29.0,
-                                "y": 100.0
+                                "x": 59.0,
+                                "y": 129.0
                             }
                         ]
                     },
-                    "inferText": "비모보정",
-                    "inferConfidence": 0.9999,
-                    "type": "NORMAL",
-                    "lineBreak": false
-                },
-                {
-                    "valueType": "ALL",
-                    "boundingPoly": {
-                        "vertices": [
-                            {
-                                "x": 216.0,
-                                "y": 4.0
-                            },
-                            {
-                                "x": 434.0,
-                                "y": 12.0
-                            },
-                            {
-                                "x": 432.0,
-                                "y": 89.0
-                            },
-                            {
-                                "x": 213.0,
-                                "y": 81.0
-                            }
-                        ]
-                    },
-                    "inferText": "500/20mg",
-                    "inferConfidence": 0.9996,
-                    "type": "NORMAL",
-                    "lineBreak": false
-                },
-                {
-                    "valueType": "ALL",
-                    "boundingPoly": {
-                        "vertices": [
-                            {
-                                "x": 425.0,
-                                "y": 0.0
-                            },
-                            {
-                                "x": 765.0,
-                                "y": 0.0
-                            },
-                            {
-                                "x": 765.0,
-                                "y": 84.0
-                            },
-                            {
-                                "x": 425.0,
-                                "y": 84.0
-                            }
-                        ]
-                    },
-                    "inferText": "[비스테로이드성",
-                    "inferConfidence": 0.9999,
-                    "type": "NORMAL",
-                    "lineBreak": false
-                },
-                {
-                    "valueType": "ALL",
-                    "boundingPoly": {
-                        "vertices": [
-                            {
-                                "x": 752.0,
-                                "y": 0.0
-                            },
-                            {
-                                "x": 1015.0,
-                                "y": 0.0
-                            },
-                            {
-                                "x": 1015.0,
-                                "y": 78.0
-                            },
-                            {
-                                "x": 752.0,
-                                "y": 78.0
-                            }
-                        ]
-                    },
-                    "inferText": "소염진통제]",
-                    "inferConfidence": 0.9998,
-                    "type": "NORMAL",
-                    "lineBreak": false
-                },
-                {
-                    "valueType": "ALL",
-                    "boundingPoly": {
-                        "vertices": [
-                            {
-                                "x": 1096.0,
-                                "y": 0.0
-                            },
-                            {
-                                "x": 1329.0,
-                                "y": 0.0
-                            },
-                            {
-                                "x": 1329.0,
-                                "y": 63.0
-                            },
-                            {
-                                "x": 1096.0,
-                                "y": 63.0
-                            }
-                        ]
-                    },
-                    "inferText": "1정씩2회5일분",
-                    "inferConfidence": 0.9758,
-                    "type": "NORMAL",
-                    "lineBreak": true
-                },
-                {
-                    "valueType": "ALL",
-                    "boundingPoly": {
-                        "vertices": [
-                            {
-                                "x": 22.0,
-                                "y": 98.0
-                            },
-                            {
-                                "x": 429.0,
-                                "y": 84.0
-                            },
-                            {
-                                "x": 432.0,
-                                "y": 161.0
-                            },
-                            {
-                                "x": 24.0,
-                                "y": 175.0
-                            }
-                        ]
-                    },
-                    "inferText": "핵정과 외핵으로 이루어진",
-                    "inferConfidence": 0.9789,
-                    "type": "NORMAL",
-                    "lineBreak": false
-                },
-                {
-                    "valueType": "ALL",
-                    "boundingPoly": {
-                        "vertices": [
-                            {
-                                "x": 427.0,
-                                "y": 77.0
-                            },
-                            {
-                                "x": 1029.0,
-                                "y": 73.0
-                            },
-                            {
-                                "x": 1030.0,
-                                "y": 155.0
-                            },
-                            {
-                                "x": 428.0,
-                                "y": 160.0
-                            }
-                        ]
-                    },
-                    "inferText": "위산분비억제제가 복합된 소염진통제",
-                    "inferConfidence": 0.9992,
-                    "type": "NORMAL",
-                    "lineBreak": true
-                },
-                {
-                    "valueType": "ALL",
-                    "boundingPoly": {
-                        "vertices": [
-                            {
-                                "x": 24.0,
-                                "y": 163.0
-                            },
-                            {
-                                "x": 141.0,
-                                "y": 163.0
-                            },
-                            {
-                                "x": 141.0,
-                                "y": 238.0
-                            },
-                            {
-                                "x": 24.0,
-                                "y": 238.0
-                            }
-                        ]
-                    },
-                    "inferText": "양면이",
+                    "inferText": "약품사진",
                     "inferConfidence": 1.0,
                     "type": "NORMAL",
                     "lineBreak": false
@@ -239,52 +50,457 @@
                     "boundingPoly": {
                         "vertices": [
                             {
-                                "x": 128.0,
-                                "y": 159.0
+                                "x": 359.0,
+                                "y": 4.0
                             },
                             {
-                                "x": 443.0,
-                                "y": 152.0
+                                "x": 498.0,
+                                "y": 4.0
+                            },
+                            {
+                                "x": 498.0,
+                                "y": 115.0
+                            },
+                            {
+                                "x": 359.0,
+                                "y": 115.0
+                            }
+                        ]
+                    },
+                    "inferText": "약품명",
+                    "inferConfidence": 0.9999,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 801.0,
+                                "y": 0.0
+                            },
+                            {
+                                "x": 1182.0,
+                                "y": 0.0
+                            },
+                            {
+                                "x": 1182.0,
+                                "y": 101.0
+                            },
+                            {
+                                "x": 801.0,
+                                "y": 101.0
+                            }
+                        ]
+                    },
+                    "inferText": "복약안내(투약량/횟수/일수)",
+                    "inferConfidence": 0.9859,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 1448.0,
+                                "y": 0.0
+                            },
+                            {
+                                "x": 1615.0,
+                                "y": 0.0
+                            },
+                            {
+                                "x": 1615.0,
+                                "y": 116.0
+                            },
+                            {
+                                "x": 1448.0,
+                                "y": 116.0
+                            }
+                        ]
+                    },
+                    "inferText": "주의사항",
+                    "inferConfidence": 1.0,
+                    "type": "NORMAL",
+                    "lineBreak": true
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 229.0,
+                                "y": 161.0
+                            },
+                            {
+                                "x": 557.0,
+                                "y": 158.0
+                            },
+                            {
+                                "x": 558.0,
+                                "y": 270.0
+                            },
+                            {
+                                "x": 229.0,
+                                "y": 273.0
+                            }
+                        ]
+                    },
+                    "inferText": "아스피린프로텍트정",
+                    "inferConfidence": 0.9995,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 548.0,
+                                "y": 153.0
+                            },
+                            {
+                                "x": 982.0,
+                                "y": 153.0
+                            },
+                            {
+                                "x": 982.0,
+                                "y": 265.0
+                            },
+                            {
+                                "x": 548.0,
+                                "y": 265.0
+                            }
+                        ]
+                    },
+                    "inferText": "[항혈전,혈소판용집억제제]",
+                    "inferConfidence": 0.9741,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 1073.0,
+                                "y": 154.0
+                            },
+                            {
+                                "x": 1282.0,
+                                "y": 154.0
+                            },
+                            {
+                                "x": 1282.0,
+                                "y": 228.0
+                            },
+                            {
+                                "x": 1073.0,
+                                "y": 228.0
+                            }
+                        ]
+                    },
+                    "inferText": "1정씩1회30일분",
+                    "inferConfidence": 0.9916,
+                    "type": "NORMAL",
+                    "lineBreak": true
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 228.0,
+                                "y": 267.0
+                            },
+                            {
+                                "x": 335.0,
+                                "y": 267.0
+                            },
+                            {
+                                "x": 335.0,
+                                "y": 353.0
+                            },
+                            {
+                                "x": 228.0,
+                                "y": 353.0
+                            }
+                        ]
+                    },
+                    "inferText": "흰색의",
+                    "inferConfidence": 1.0,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 317.0,
+                                "y": 267.0
+                            },
+                            {
+                                "x": 461.0,
+                                "y": 267.0
+                            },
+                            {
+                                "x": 461.0,
+                                "y": 345.0
+                            },
+                            {
+                                "x": 317.0,
+                                "y": 345.0
+                            }
+                        ]
+                    },
+                    "inferText": "원형 장용",
+                    "inferConfidence": 0.9998,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 444.0,
+                                "y": 269.0
+                            },
+                            {
+                                "x": 636.0,
+                                "y": 269.0
+                            },
+                            {
+                                "x": 636.0,
+                                "y": 344.0
                             },
                             {
                                 "x": 444.0,
-                                "y": 229.0
-                            },
-                            {
-                                "x": 130.0,
-                                "y": 236.0
+                                "y": 344.0
                             }
                         ]
                     },
-                    "inferText": "볼록한 타원형의 노",
-                    "inferConfidence": 0.9979,
+                    "inferText": "필름코팅 혈전",
+                    "inferConfidence": 0.9679,
                     "type": "NORMAL",
-                    "lineBreak": true
+                    "lineBreak": false
                 },
                 {
                     "valueType": "ALL",
                     "boundingPoly": {
                         "vertices": [
                             {
-                                "x": 26.0,
+                                "x": 620.0,
+                                "y": 267.0
+                            },
+                            {
+                                "x": 698.0,
+                                "y": 267.0
+                            },
+                            {
+                                "x": 698.0,
+                                "y": 345.0
+                            },
+                            {
+                                "x": 620.0,
+                                "y": 345.0
+                            }
+                        ]
+                    },
+                    "inferText": "생성",
+                    "inferConfidence": 1.0,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 685.0,
+                                "y": 265.0
+                            },
+                            {
+                                "x": 807.0,
+                                "y": 265.0
+                            },
+                            {
+                                "x": 807.0,
+                                "y": 345.0
+                            },
+                            {
+                                "x": 685.0,
+                                "y": 345.0
+                            }
+                        ]
+                    },
+                    "inferText": "억제제:",
+                    "inferConfidence": 0.9356,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 788.0,
+                                "y": 266.0
+                            },
+                            {
+                                "x": 894.0,
+                                "y": 266.0
+                            },
+                            {
+                                "x": 894.0,
+                                "y": 341.0
+                            },
+                            {
+                                "x": 788.0,
+                                "y": 341.0
+                            }
+                        ]
+                    },
+                    "inferText": "혈소판",
+                    "inferConfidence": 0.9922,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 879.0,
+                                "y": 265.0
+                            },
+                            {
+                                "x": 958.0,
+                                "y": 265.0
+                            },
+                            {
+                                "x": 958.0,
+                                "y": 344.0
+                            },
+                            {
+                                "x": 879.0,
+                                "y": 344.0
+                            }
+                        ]
+                    },
+                    "inferText": "응집",
+                    "inferConfidence": 0.996,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 939.0,
+                                "y": 262.0
+                            },
+                            {
+                                "x": 1049.0,
+                                "y": 262.0
+                            },
+                            {
+                                "x": 1049.0,
+                                "y": 348.0
+                            },
+                            {
+                                "x": 939.0,
+                                "y": 348.0
+                            }
+                        ]
+                    },
+                    "inferText": "저해제",
+                    "inferConfidence": 0.9996,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 1079.0,
                                 "y": 264.0
                             },
                             {
-                                "x": 250.0,
-                                "y": 260.0
+                                "x": 1332.0,
+                                "y": 266.0
                             },
                             {
-                                "x": 252.0,
-                                "y": 352.0
+                                "x": 1331.0,
+                                "y": 343.0
                             },
                             {
-                                "x": 28.0,
-                                "y": 355.0
+                                "x": 1078.0,
+                                "y": 341.0
                             }
                         ]
                     },
-                    "inferText": "세페리손정",
-                    "inferConfidence": 0.9997,
+                    "inferText": "실온(25°C이하) 보관",
+                    "inferConfidence": 0.9599,
+                    "type": "NORMAL",
+                    "lineBreak": true
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 240.0,
+                                "y": 362.0
+                            },
+                            {
+                                "x": 272.0,
+                                "y": 362.0
+                            },
+                            {
+                                "x": 272.0,
+                                "y": 417.0
+                            },
+                            {
+                                "x": 240.0,
+                                "y": 417.0
+                            }
+                        ]
+                    },
+                    "inferText": "정",
+                    "inferConfidence": 0.6797,
+                    "type": "NORMAL",
+                    "lineBreak": true
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 232.0,
+                                "y": 472.0
+                            },
+                            {
+                                "x": 432.0,
+                                "y": 472.0
+                            },
+                            {
+                                "x": 432.0,
+                                "y": 575.0
+                            },
+                            {
+                                "x": 232.0,
+                                "y": 575.0
+                            }
+                        ]
+                    },
+                    "inferText": "노페로캡슐",
+                    "inferConfidence": 0.9996,
                     "type": "NORMAL",
                     "lineBreak": false
                 },
@@ -293,25 +509,25 @@
                     "boundingPoly": {
                         "vertices": [
                             {
-                                "x": 424.0,
-                                "y": 259.0
+                                "x": 556.0,
+                                "y": 472.0
                             },
                             {
-                                "x": 652.0,
-                                "y": 259.0
+                                "x": 966.0,
+                                "y": 472.0
                             },
                             {
-                                "x": 652.0,
-                                "y": 355.0
+                                "x": 966.0,
+                                "y": 581.0
                             },
                             {
-                                "x": 424.0,
-                                "y": 355.0
+                                "x": 556.0,
+                                "y": 581.0
                             }
                         ]
                     },
-                    "inferText": "[근이완제]",
-                    "inferConfidence": 0.9991,
+                    "inferText": "[철분제제 & 빈혈치료제]",
+                    "inferConfidence": 0.956,
                     "type": "NORMAL",
                     "lineBreak": false
                 },
@@ -320,25 +536,25 @@
                     "boundingPoly": {
                         "vertices": [
                             {
-                                "x": 1085.0,
-                                "y": 254.0
+                                "x": 1083.0,
+                                "y": 480.0
                             },
                             {
-                                "x": 1330.0,
-                                "y": 259.0
+                                "x": 1307.0,
+                                "y": 482.0
                             },
                             {
-                                "x": 1329.0,
-                                "y": 337.0
+                                "x": 1306.0,
+                                "y": 540.0
                             },
                             {
                                 "x": 1083.0,
-                                "y": 332.0
+                                "y": 538.0
                             }
                         ]
                     },
-                    "inferText": "1정씩 2회 5일분",
-                    "inferConfidence": 0.94,
+                    "inferText": "1캡슐씩1회30일분",
+                    "inferConfidence": 0.9729,
                     "type": "NORMAL",
                     "lineBreak": true
                 },
@@ -347,24 +563,78 @@
                     "boundingPoly": {
                         "vertices": [
                             {
-                                "x": 23.0,
-                                "y": 352.0
+                                "x": 237.0,
+                                "y": 585.0
                             },
                             {
-                                "x": 395.0,
-                                "y": 348.0
+                                "x": 310.0,
+                                "y": 585.0
                             },
                             {
-                                "x": 396.0,
-                                "y": 425.0
+                                "x": 310.0,
+                                "y": 664.0
                             },
                             {
-                                "x": 24.0,
-                                "y": 429.0
+                                "x": 237.0,
+                                "y": 664.0
                             }
                         ]
                     },
-                    "inferText": "흰색의 원형 필름코팅정",
+                    "inferText": "연한",
+                    "inferConfidence": 0.9988,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 292.0,
+                                "y": 582.0
+                            },
+                            {
+                                "x": 378.0,
+                                "y": 582.0
+                            },
+                            {
+                                "x": 378.0,
+                                "y": 666.0
+                            },
+                            {
+                                "x": 292.0,
+                                "y": 666.0
+                            }
+                        ]
+                    },
+                    "inferText": "갈색",
+                    "inferConfidence": 0.999,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 357.0,
+                                "y": 585.0
+                            },
+                            {
+                                "x": 463.0,
+                                "y": 585.0
+                            },
+                            {
+                                "x": 463.0,
+                                "y": 664.0
+                            },
+                            {
+                                "x": 357.0,
+                                "y": 664.0
+                            }
+                        ]
+                    },
+                    "inferText": "장용성",
                     "inferConfidence": 0.9999,
                     "type": "NORMAL",
                     "lineBreak": false
@@ -374,51 +644,105 @@
                     "boundingPoly": {
                         "vertices": [
                             {
-                                "x": 429.0,
-                                "y": 348.0
+                                "x": 450.0,
+                                "y": 585.0
                             },
                             {
-                                "x": 695.0,
-                                "y": 348.0
+                                "x": 579.0,
+                                "y": 585.0
                             },
                             {
-                                "x": 695.0,
-                                "y": 428.0
+                                "x": 579.0,
+                                "y": 666.0
                             },
                             {
-                                "x": 429.0,
-                                "y": 428.0
+                                "x": 450.0,
+                                "y": 666.0
                             }
                         ]
                     },
-                    "inferText": "근이완제입니다.",
-                    "inferConfidence": 0.9996,
+                    "inferText": "제피정을",
+                    "inferConfidence": 0.9295,
                     "type": "NORMAL",
-                    "lineBreak": true
+                    "lineBreak": false
                 },
                 {
                     "valueType": "ALL",
                     "boundingPoly": {
                         "vertices": [
                             {
-                                "x": 26.0,
-                                "y": 519.0
+                                "x": 563.0,
+                                "y": 589.0
                             },
                             {
-                                "x": 332.0,
-                                "y": 519.0
+                                "x": 667.0,
+                                "y": 587.0
                             },
                             {
-                                "x": 332.0,
-                                "y": 609.0
+                                "x": 669.0,
+                                "y": 655.0
                             },
                             {
-                                "x": 26.0,
-                                "y": 609.0
+                                "x": 565.0,
+                                "y": 658.0
                             }
                         ]
                     },
-                    "inferText": "페인리스서방정",
+                    "inferText": "철분을",
+                    "inferConfidence": 0.9933,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 651.0,
+                                "y": 583.0
+                            },
+                            {
+                                "x": 786.0,
+                                "y": 583.0
+                            },
+                            {
+                                "x": 786.0,
+                                "y": 670.0
+                            },
+                            {
+                                "x": 651.0,
+                                "y": 670.0
+                            }
+                        ]
+                    },
+                    "inferText": "공급하는",
+                    "inferConfidence": 1.0,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 775.0,
+                                "y": 589.0
+                            },
+                            {
+                                "x": 817.0,
+                                "y": 589.0
+                            },
+                            {
+                                "x": 817.0,
+                                "y": 657.0
+                            },
+                            {
+                                "x": 775.0,
+                                "y": 657.0
+                            }
+                        ]
+                    },
+                    "inferText": "약",
                     "inferConfidence": 0.9998,
                     "type": "NORMAL",
                     "lineBreak": false
@@ -428,52 +752,25 @@
                     "boundingPoly": {
                         "vertices": [
                             {
-                                "x": 422.0,
-                                "y": 522.0
+                                "x": 1084.0,
+                                "y": 584.0
                             },
                             {
-                                "x": 704.0,
-                                "y": 525.0
+                                "x": 1298.0,
+                                "y": 589.0
                             },
                             {
-                                "x": 703.0,
-                                "y": 616.0
+                                "x": 1296.0,
+                                "y": 656.0
                             },
                             {
-                                "x": 421.0,
-                                "y": 612.0
+                                "x": 1082.0,
+                                "y": 651.0
                             }
                         ]
                     },
-                    "inferText": "[기타 진통제]",
-                    "inferConfidence": 0.9999,
-                    "type": "NORMAL",
-                    "lineBreak": false
-                },
-                {
-                    "valueType": "ALL",
-                    "boundingPoly": {
-                        "vertices": [
-                            {
-                                "x": 1070.0,
-                                "y": 523.0
-                            },
-                            {
-                                "x": 1323.0,
-                                "y": 525.0
-                            },
-                            {
-                                "x": 1323.0,
-                                "y": 601.0
-                            },
-                            {
-                                "x": 1069.0,
-                                "y": 599.0
-                            }
-                        ]
-                    },
-                    "inferText": "1정씩2회5일분",
-                    "inferConfidence": 0.9824,
+                    "inferText": "실온보관(1-30°C)",
+                    "inferConfidence": 0.955,
                     "type": "NORMAL",
                     "lineBreak": true
                 },
@@ -482,106 +779,25 @@
                     "boundingPoly": {
                         "vertices": [
                             {
-                                "x": 25.0,
-                                "y": 605.0
+                                "x": 235.0,
+                                "y": 664.0
                             },
                             {
-                                "x": 704.0,
-                                "y": 612.0
+                                "x": 366.0,
+                                "y": 664.0
                             },
                             {
-                                "x": 703.0,
-                                "y": 687.0
-                            },
-                            {
-                                "x": 24.0,
-                                "y": 680.0
-                            }
-                        ]
-                    },
-                    "inferText": "연한 노란색의 장방형서방진통제로서 통증,",
-                    "inferConfidence": 0.9919,
-                    "type": "NORMAL",
-                    "lineBreak": false
-                },
-                {
-                    "valueType": "ALL",
-                    "boundingPoly": {
-                        "vertices": [
-                            {
-                                "x": 691.0,
-                                "y": 610.0
-                            },
-                            {
-                                "x": 847.0,
-                                "y": 612.0
-                            },
-                            {
-                                "x": 846.0,
-                                "y": 689.0
-                            },
-                            {
-                                "x": 690.0,
-                                "y": 687.0
-                            }
-                        ]
-                    },
-                    "inferText": "중등도의",
-                    "inferConfidence": 0.9997,
-                    "type": "NORMAL",
-                    "lineBreak": false
-                },
-                {
-                    "valueType": "ALL",
-                    "boundingPoly": {
-                        "vertices": [
-                            {
-                                "x": 836.0,
-                                "y": 614.0
-                            },
-                            {
-                                "x": 1082.0,
-                                "y": 614.0
-                            },
-                            {
-                                "x": 1082.0,
-                                "y": 688.0
-                            },
-                            {
-                                "x": 836.0,
-                                "y": 688.0
-                            }
-                        ]
-                    },
-                    "inferText": "통증 경감 목적",
-                    "inferConfidence": 0.9964,
-                    "type": "NORMAL",
-                    "lineBreak": true
-                },
-                {
-                    "valueType": "ALL",
-                    "boundingPoly": {
-                        "vertices": [
-                            {
-                                "x": 25.0,
-                                "y": 672.0
-                            },
-                            {
-                                "x": 249.0,
-                                "y": 672.0
-                            },
-                            {
-                                "x": 249.0,
+                                "x": 366.0,
                                 "y": 745.0
                             },
                             {
-                                "x": 25.0,
+                                "x": 235.0,
                                 "y": 745.0
                             }
                         ]
                     },
-                    "inferText": "성 필름코팅정",
-                    "inferConfidence": 0.9998,
+                    "inferText": "함유하는",
+                    "inferConfidence": 1.0,
                     "type": "NORMAL",
                     "lineBreak": false
                 },
@@ -590,25 +806,52 @@
                     "boundingPoly": {
                         "vertices": [
                             {
-                                "x": 428.0,
-                                "y": 676.0
+                                "x": 353.0,
+                                "y": 669.0
                             },
                             {
-                                "x": 699.0,
-                                "y": 676.0
+                                "x": 432.0,
+                                "y": 669.0
                             },
                             {
-                                "x": 699.0,
-                                "y": 749.0
+                                "x": 432.0,
+                                "y": 742.0
                             },
                             {
-                                "x": 428.0,
-                                "y": 749.0
+                                "x": 353.0,
+                                "y": 742.0
                             }
                         ]
                     },
-                    "inferText": "으로 사용됩니다.",
-                    "inferConfidence": 0.9999,
+                    "inferText": "상부",
+                    "inferConfidence": 0.9957,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 409.0,
+                                "y": 665.0
+                            },
+                            {
+                                "x": 583.0,
+                                "y": 669.0
+                            },
+                            {
+                                "x": 581.0,
+                                "y": 748.0
+                            },
+                            {
+                                "x": 407.0,
+                                "y": 744.0
+                            }
+                        ]
+                    },
+                    "inferText": "불투명 갈색",
+                    "inferConfidence": 0.991,
                     "type": "NORMAL",
                     "lineBreak": true
                 }

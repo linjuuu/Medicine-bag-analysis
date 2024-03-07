@@ -11,7 +11,7 @@ class Classification:
             self.info = json.load(json_file)
         
         self.db = ["라베플러스정10mg" , '에소프라졸정40mg' , "가토젠정" , "레바미드정", "애니틴서방정", "모티리톤정_" , "부스론정5mg",
-                   "비모보정" , "세페리손정" , "페인리스서방정"]
+                   "비모보정" , "세페리손정" , "페인리스서방정", "아스피린프로텍트정" , "노페로캡슐"]
         self.medicines = []
             
     def is_medicine_name(self, word):
@@ -22,7 +22,7 @@ class Classification:
         
     def is_take_info(self,word):
         # 숫자와 단위를 추출하는 정규 표현식
-        pattern = r'(\d+)(정|정씩|회|일분)'
+        pattern = r'(\d+)(정|정씩|캡슐|캡슐씩|회|회당|일|일분)'
         
         # 정규 표현식에 매칭되는 모든 문자열을 찾아서 리스트로 반환
         matches = re.findall(pattern, word)
@@ -36,8 +36,14 @@ class Classification:
         for medicine in self.medicines :
             
             medicine_name = ''
+            
+            take_unit_filter = ['정' , "정씩" , "캡슐" , "캡슐씩" ]
             take_unit = -1
+            
+            take_number_filter = ['회' , "회씩"]
             take_number = -1
+            
+            take_days_filter = ['일' , "일분"]
             take_days = -1 
             
             if len(medicine) >= 2 :
@@ -45,11 +51,11 @@ class Classification:
                 
                 for info in medicine[1]:
                     
-                    if info[1] == '정' :
+                    if info[1] in take_unit_filter :
                         take_unit = info[0]
-                    elif info[1] == '회' :
+                    elif info[1] in  take_number_filter:
                         take_number = info[0]
-                    elif info[1] == '일분' :
+                    elif info[1] in take_days_filter :
                         take_days = info[0]
                 
                 print('------------------------')
@@ -82,7 +88,7 @@ class Classification:
                 
         # 마지막에 기록된 복약정보도 추가하기 
         self.medicines.append(medicine_info)
-        
+        print(self.medicines)
         self.print_result()
                 
             
