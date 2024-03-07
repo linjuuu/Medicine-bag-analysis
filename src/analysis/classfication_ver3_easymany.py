@@ -10,7 +10,8 @@ class Classification:
         with open(self.config['IMPORTANT_OCR'], 'r', encoding='utf-8') as json_file:
             self.info = json.load(json_file)
         
-        self.db = ["라베플러스정10mg" , '에소프라졸정40mg' , "가토젠정" , "레바미드정", "애니틴서방정", "모티리톤정_" , "부스론정5mg"]
+        self.db = ["라베플러스정10mg" , '에소프라졸정40mg' , "가토젠정" , "레바미드정", "애니틴서방정", "모티리톤정_" , "부스론정5mg",
+                   "비모보정" , "세페리손정" , "페인리스서방정"]
         self.medicines = []
             
     def is_medicine_name(self, word):
